@@ -1,0 +1,35 @@
+{
+  "model": "efficientnet_b0",
+  "best_epoch": 4,
+  "training_minutes": 14.825386865933735,
+  "best_threshold_from_val": 0.21,
+  "val_loss": 0.22341530318846556,
+  "val_accuracy_0_50": 0.9098966026587888,
+  "val_recall_tumor_0_50": 0.8861111111111111,
+  "val_f1_tumor_0_50": 0.9127324749642346,
+  "val_accuracy_tuned": 0.9113737075332349,
+  "val_precision_tumor_tuned": 0.8731343283582089,
+  "val_recall_tumor_tuned": 0.975,
+  "val_f1_tumor_tuned": 0.9212598425196851,
+  "val_roc_auc_tumor": 0.9766912022432527,
+  "val_selection_score_tuned": 0.9466470010118749,
+  "test_loss": 0.21689124941650043,
+  "test_accuracy": 0.9144542772861357,
+  "test_precision_tumor": 0.8878718535469108,
+  "test_recall_tumor": 0.9773299748110831,
+  "test_f1_tumor": 0.9304556354916067,
+  "test_roc_auc_tumor": 0.9761019030630081,
+  "test_selection_score": 0.9514926014205242,
+  "confusion_matrix": [
+    [
+      388,
+      9
+    ],
+    [
+      49,
+      232
+    ]
+  ],
+  "checkpoint_path": "C:\\Users\\purti.balani\\Downloads\\CAPSTONE\\models\\efficientnet_b0_best.pth",
+  "classification_report_path": "C:\\Users\\purti.balani\\Downloads\\CAPSTONE\\outputs\\transfer_learning\\reports\\efficientnet_b0_classification_report.txt"
+}

@@ -1,0 +1,35 @@
+{
+  "model": "vgg16",
+  "best_epoch": 4,
+  "training_minutes": 47.01835174560547,
+  "best_threshold_from_val": 0.18,
+  "val_loss": 0.1990069185976528,
+  "val_accuracy_0_50": 0.9276218611521418,
+  "val_recall_tumor_0_50": 0.8972222222222223,
+  "val_f1_tumor_0_50": 0.9294964028776979,
+  "val_accuracy_tuned": 0.9246676514032496,
+  "val_precision_tumor_tuned": 0.9012987012987013,
+  "val_recall_tumor_tuned": 0.9638888888888889,
+  "val_f1_tumor_tuned": 0.9315436241610738,
+  "val_roc_auc_tumor": 0.9789256922537679,
+  "val_selection_score_tuned": 0.9466848606113077,
+  "test_loss": 0.2220579260042635,
+  "test_accuracy": 0.915929203539823,
+  "test_precision_tumor": 0.9047619047619048,
+  "test_recall_tumor": 0.9571788413098237,
+  "test_f1_tumor": 0.9302325581395349,
+  "test_roc_auc_tumor": 0.9756805937771722,
+  "test_selection_score": 0.9415601965347224,
+  "confusion_matrix": [
+    [
+      380,
+      17
+    ],
+    [
+      40,
+      241
+    ]
+  ],
+  "checkpoint_path": "C:\\Users\\purti.balani\\Downloads\\CAPSTONE\\models\\vgg16_best.pth",
+  "classification_report_path": "C:\\Users\\purti.balani\\Downloads\\CAPSTONE\\outputs\\transfer_learning\\reports\\vgg16_classification_report.txt"
+}

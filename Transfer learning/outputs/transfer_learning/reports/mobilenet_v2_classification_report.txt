@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+ Brain Tumor     0.7578    0.9773    0.8537       397
+     Healthy     0.9458    0.5587    0.7025       281
+
+    accuracy                         0.8038       678
+   macro avg     0.8518    0.7680    0.7781       678
+weighted avg     0.8357    0.8038    0.7910       678

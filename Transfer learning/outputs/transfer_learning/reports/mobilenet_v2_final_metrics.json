@@ -1,0 +1,35 @@
+{
+  "model": "mobilenet_v2",
+  "best_epoch": 1,
+  "training_minutes": 9.623717800776165,
+  "best_threshold_from_val": 0.37,
+  "val_loss": 0.3896193238005504,
+  "val_accuracy_0_50": 0.8478581979320532,
+  "val_recall_tumor_0_50": 0.9277777777777778,
+  "val_f1_tumor_0_50": 0.8664072632944229,
+  "val_accuracy_tuned": 0.793205317577548,
+  "val_precision_tumor_tuned": 0.7291666666666666,
+  "val_recall_tumor_tuned": 0.9722222222222222,
+  "val_f1_tumor_tuned": 0.8333333333333334,
+  "val_roc_auc_tumor": 0.930012267788293,
+  "val_selection_score_tuned": 0.89675857541441,
+  "test_loss": 0.3633487647437768,
+  "test_accuracy": 0.803834808259587,
+  "test_precision_tumor": 0.7578125,
+  "test_recall_tumor": 0.9773299748110831,
+  "test_f1_tumor": 0.8536853685368537,
+  "test_roc_auc_tumor": 0.943123246412148,
+  "test_selection_score": 0.9080300876323784,
+  "confusion_matrix": [
+    [
+      388,
+      9
+    ],
+    [
+      124,
+      157
+    ]
+  ],
+  "checkpoint_path": "C:\\Users\\purti.balani\\Downloads\\CAPSTONE\\models\\mobilenet_v2_best.pth",
+  "classification_report_path": "C:\\Users\\purti.balani\\Downloads\\CAPSTONE\\outputs\\transfer_learning\\reports\\mobilenet_v2_classification_report.txt"
+}
